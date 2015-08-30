@@ -99,9 +99,10 @@ body.home {
 }
 
 .contact-container {
-	background-color: #ffffff;
-	border: 25px solid #CB333B;
-	height: 310px;
+/*	background-color: #ffffff;
+	border: 25px solid #CB333B;*/	
+  color: #8E949B;
+  height: 310px;
 	margin: 25px 0 0 0;
 	padding: 25px;
   position: relative;
@@ -112,7 +113,8 @@ body.home {
 }
 
 .contact-container input {
-	background-color: #818890;
+/*	background-color: #818890;*/
+  background-color: rgba(255, 255, 255, 0.4);
 	border: 0;
 	margin: 10px 0;
 	padding: 5px;
@@ -123,7 +125,8 @@ body.home {
 }
 
 .contact-container textarea{
-	background-color: #818890;
+	/*background-color: #818890;*/
+  background-color: rgba(255, 255, 255, 0.4);
 	height: 70px;
 	overflow: auto;
 }
@@ -136,7 +139,6 @@ body.home {
 .social-container {
   position: relative;
   text-align: center;
-  top: 241px;
 }
 
 .social-link-list img {
