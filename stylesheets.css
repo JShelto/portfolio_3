@@ -25,7 +25,6 @@ body.home {
 }
 
 .navigation, .lower-navigation {
-	margin: 25px auto 0 auto;
   font-family: sans-serif;
   text-align: center;
 }
@@ -33,6 +32,7 @@ body.home {
 .navigation {
 	border-top: 1px solid #DBDCDF;
   border-bottom: 1px solid #DBDCDF;
+  margin: 25px auto 0 auto;
 }
 
 .navigation a, .lower-navigation a {
@@ -46,6 +46,10 @@ body.home {
 
 .navigation a:hover {
 	color: #214D7E;
+}
+
+.lower-navigation {
+	margin: 25px auto 10px;
 }
 
 .lower-navigation a {
@@ -99,8 +103,6 @@ body.home {
 }
 
 .contact-container {
-/*	background-color: #ffffff;
-	border: 25px solid #CB333B;*/	
   color: #8E949B;
   height: 310px;
 	margin: 25px 0 0 0;
@@ -109,11 +111,11 @@ body.home {
 }
 
 .contact-container h3 {
+	color: #FFFFFF;
 	font-family: sans-serif;
 }
 
 .contact-container input {
-/*	background-color: #818890;*/
   background-color: rgba(255, 255, 255, 0.4);
 	border: 0;
 	margin: 10px 0;
@@ -125,7 +127,6 @@ body.home {
 }
 
 .contact-container textarea{
-	/*background-color: #818890;*/
   background-color: rgba(255, 255, 255, 0.4);
 	height: 70px;
 	overflow: auto;
@@ -141,12 +142,42 @@ body.home {
   text-align: center;
 }
 
-.social-link-list img {
-	margin: 0 3px;
-	height: 14px;
-	width: 14px;
+.social-link {
+	height: 20px;
+	width: 20px;
+	background-size: 100% !important;
+	margin: 0 10px;
 }
 
+#linkedin-icon {
+	border: 1px solid #8E949B;
+	background: url(./images/icons/linkedin_icon_grey.png)
+}
+
+#github-icon {
+	border: 1px solid #8E949B;
+	background: url(./images/icons/github_icon_grey.png)
+}
+
+#twitter-icon {
+	border: 1px solid #8E949B;
+	background: url(./images/icons/twitter_icon_grey.png)
+}
+
+#linkedin-icon:hover {
+	border: 1px solid #FFFFFF;
+	background: url(./images/icons/linkedin_icon_white.png)
+}
+
+#github-icon:hover {
+	border: 1px solid #FFFFFF;
+	background: url(./images/icons/github_icon_white.png)
+}
+
+#twitter-icon:hover {
+	border: 1px solid #FFFFFF;
+	background: url(./images/icons/twitter_icon_white.png)
+}
 
 .big-square, .navigation, .hero, .lower-navigation {
 	min-width: 400px;

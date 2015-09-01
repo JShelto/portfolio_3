@@ -1,8 +1,8 @@
-// // $(".navigation h2").hover(function(){
-// //     $(this).addClass("underline-white");
-// //   }, function() { 
-// //     $(this).removeClass("underline-white");
-// // });
+// $(".navigation h2").hover(function(){
+//     $(this).addClass("underline-white");
+//   }, function() { 
+//     $(this).removeClass("underline-white");
+// });
 
 // //make sure the lower links are visible as the user scrolls
 // $(window).scroll(function (event) {

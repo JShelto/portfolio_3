@@ -1,22 +1,6 @@
 /* Fonts */
 @import url(https://fonts.googleapis.com/css?family=Philosopher:400,700);
 
-@font-face {
-  font-family: 'makhina'; /*By Nuno Dias https://dribbble.com/shots/1307130-MAKHINA-Free-Font*/
-  src: url('./fonts/makhina.ttf');
-}
-
-@font-face {
-  font-family: 'prime-light'; /* By Max Pirsky http://fontfabric.com/prime-free-font */
-  src: url('./fonts/prime_light.otf');
-}
-
-@font-face {
-  font-family: 'prime-regular';/* By Max Pirsky http://fontfabric.com/prime-free-font */
-  src: url('./fonts/prime_regular.otf');
-}
-
-
 h1, h2, h3,h4, h5, h6 { 
   letter-spacing: 0.063em;
 }
