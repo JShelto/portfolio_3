@@ -53,11 +53,12 @@ body.home {
 }
 
 .lower-navigation a {
-	color: #ffffff;
+	color: #8E949B;
+	font-size: 12px;
 }
 
-.lower-navigation p {
-	font-size: 12px;
+.lower-navigation a:hover {
+	color: #FFFFFF;
 }
 
 .upper-link-list, .lower-link-list, .social-link-list {
@@ -80,13 +81,37 @@ body.home {
 }
 
 .hero {
+	background-color: white;
+	border: 1px solid #8E949B;
 	margin: 25px auto 0 auto;
-}
-
-.hero img {
 	height: 410px;
 	width: 100%;
 }
+
+.tab-container {
+	position: relative;
+	width: 200px;
+}
+
+.tab-container a {
+	color: #214D7E;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+}
+
+.tab-container a:hover {
+	color: #FFFFFF;
+}
+
+.project-tab {
+	background-color: #8E949B;
+	border: 1px solid black;
+	margin: 10px;
+	text-align: center;
+	width: 100%;
+}
+
 
 #big-square {
 	background-color: #000;
